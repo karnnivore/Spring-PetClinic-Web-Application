@@ -1,0 +1,71 @@
+class Box:
+    numBoxes = 0
+
+    def __init__(self, Name='', Width=0, Height=0, Depth=0):
+        self.name=Name
+        self.__width=Width
+        self.__height=Height
+        self.depth=Depth
+        pass
+
+    @property  # getter
+    def width(self):
+        return self.__width
+
+    @width.setter
+    def width(self, newValue):
+        self.__width = newValue
+
+    @property  # getter
+    def height(self):
+        return self.__height
+
+    @height.setter
+    def height(self, newValue):
+        self.__height = newValue
+
+    def __del__(self):
+        print("destroying Box")
+
+    def area(self):
+        return self.__height * self.__width
+
+    def volume(self):
+        return self.__height * self.__width * self.depth
+
+    @classmethod
+    def MyClassMethod(cls):
+        return cls.__name__+ " is the name of the class"
+
+    @staticmethod
+    def StaticMethod():
+        return "Hello from static class " + __class__.__name__
+
+box1 = Box("Box 1", 10, 20, 30);
+box1.__del__()
+
+print(box1.name)
+print(box1.width)
+print(box1.height)
+print(box1.depth)
+
+print(box1.area())
+print(box1.volume())
+
+print(Box.numBoxes)
+print(box1.numBoxes)
+Box.numBoxes = 5
+print(Box.numBoxes)
+print(box1.numBoxes)
+
+print(Box.MyClassMethod())
+print(box1.MyClassMethod())
+
+# Importing class from another file 
+# from myFirstClass(current file name e.g.myFirstClass.py import Box(class name)
+
+
+
+
+
+

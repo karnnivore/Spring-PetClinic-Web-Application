@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+</head>
+<body>
+  <h2>ES6 in Action: Enhanced Object Literals</h2>
+  <p id="demo1"></p>
+  <p id="demo2"></p>
+
+  <script type="text/javascript">
+    var obj1 = {
+      name: "Pritesh",
+      city: "Toronto",
+      gender: "Male",
+      display: function()
+      {
+        console.log(this.name + " is from " + this.city);
+      }
+    };
+
+    obj1.display();
+    console.log(obj1);
+    console.log(obj1.name);
+    console.log(obj1.city);
+    console.log(obj1.gender);
+
+    var cities = ["Toronto", "New York", "Mumbai", "London", "Vancouver"];
+
+    var len = cities.map( x => {
+      return x.length;
+    });
+
+    console.log(cities);
+    console.log(len);
+
+    var cityLen = cities.map( x => {
+      return `${x} - ${x.length}`;
+    });
+
+    console.log(cityLen);
+
+    var test = cities.filter( x => {
+      if(x.length == 6){
+        return x;
+      }
+    });
+
+    console.log(test);
+
+    const euros = [1, 2, 3, 4];
+    var reducer = euros.reduce((total, amount) => total + amount);
+    console.log(reducer);
+
+    const euros2 = [1, 2, 3, 4];
+    var test = euros2.reduce((total, amount) => total * amount);
+    console.log(test);
+  </script>
+</body>
+</html>

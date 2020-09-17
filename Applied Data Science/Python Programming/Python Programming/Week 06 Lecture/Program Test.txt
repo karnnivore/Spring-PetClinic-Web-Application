@@ -1,0 +1,8 @@
+print("****************************")
+count=0
+with open("members.txt") as file:
+    members = file.readlines();
+    for line in members.readlines():
+        count += 1
+        for i in range(count):
+            print(members[i], end="")

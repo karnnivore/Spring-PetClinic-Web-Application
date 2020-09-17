@@ -1,0 +1,78 @@
+Task 1
+Ask the user for an input
+Output the ASCII values for each character of the input
+Output the sum of the ASCII values for each character of the input
+
+
+Task 2
+Ask the user for a number
+Determine if number is a digit
+	If so, output the character that ASCII value represents
+	If not, output an error message
+
+
+Task 3
+Ask the user for an input
+Determine if the input is a valid title
+	If so, output a success message
+	If not, transform the input into a title and output it
+
+
+Task 4
+Ask user for input
+Ask user for character
+Output a YES or NO value if the character is found in the input
+Output a position of where the character is found
+
+
+Task 5
+Create a dictionary of 3 items
+GET one of the keys
+Remove one of the keys
+output all values of the dictionary
+output all keys of the dictionary
+output all key-value pairs of the dictionary
+
+Task 6
+Create a set of numbers between 10 and 20
+Create another set of numbers between 5 and 15
+Output to screen the values that are not in both sets
+Output to screen values that are in the first set but not in the second set
+Output to screen values that are in the second set but not in the first set
+Output to screen the common numbers of the two sets
+Iterate through each value of both sets
+
+Task 7
+Ask the user for input
+Using list comprehension, create a list of all non-alphanumeric characters
+Output the list in reverse order 
+
+Task 8
+Create a dictionary of the following data using dictionary comprehension
+	B	:	44
+	H	:	48
+	N	:	52
+	T	:	56
+	Z	:	60	
+
+Task 9
+You are a store own
+
+Create a dictionary of your inventory
+    The inventory should have 3 categories
+        Each category should have 2 items
+
+You need to select a vendor
+
+Create a dictionary of the vendor's inventory
+    The inventory should have 3 categories
+        Each category should have 2 items
+
+Output the items that YOU have but the VENDOR does not have
+
+Output the items that BOTH YOU and the VENDOR have
+
+Ask the user for an item
+
+Determine if the item is in STOCK (you have it)
+Determine if vendor carries the item (vendor has it)
