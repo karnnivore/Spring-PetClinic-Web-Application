@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<script>
+'use strict';
+
+//Example - 1
+async function f1() {
+  return 1;
+}
+
+f1().then(alert); // 1
+
+//Example - 2
+async function f2() {
+  return Promise.resolve(1);
+}
+
+f2().then(alert); // 1
+
+//Example - 3
+async function f3() {
+
+  let promise = new Promise((resolve, reject) => {
+    setTimeout(() => resolve("done!"), 1000)
+  });
+
+  let result = await promise; // wait until the promise resolves (*)
+
+  alert(result); // "done!"
+}
+
+f3();
+
+//More
+fetch('https://jsonplaceholder.typicode.com/todos/1')
+  .then(response => response.json())
+  .then(json => console.log(json))
+</script>

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class and Inheritance in JavaScript</title>
+</head>
+<body>
+    <script>
+ /*       
+    //Before having keyword class in ES6
+    function Animal(name) 
+    {
+        this.name = name;
+    }
+
+    //displayName is the method on class Animal
+    Animal.prototype.displayName = function() 
+    {
+        console.log(this.name);
+    }
+
+    var cat = new Animal('Cat');
+    cat.displayName(); // Cat
+
+
+*/
+
+/*
+    //ES6 Class
+    class Animal 
+    {
+        constructor(name) 
+        {
+            this.name = name;
+        }
+
+        displayName() 
+        {
+            console.log(this.name);
+        }
+
+        get greet()
+        {
+            return `Mr. ${this.name}`;
+        }
+    }
+
+    let cat = new Animal('Cat');
+    cat.displayName();
+    console.log(cat.greet);
+
+    console.log(typeof Animal); // function
+*/
+
+  /*      
+    //Class expression - Syntactic sugar Syntax
+    let Animal = class Animal2
+    {
+        constructor(name) 
+        {
+            this.name = name;
+        }
+
+        displayName() 
+        {
+            console.log(this.name);
+        }
+    }
+
+    let duck = new Animal('Duck');
+
+    console.log(duck instanceof Animal); // true
+    console.log(duck instanceof Object); // true
+
+    console.log(typeof Animal); // function
+    console.log(typeof Animal.prototype); // function
+
+*/
+/*
+    Create a class name Employee
+        - employeeID
+        - firstName
+        - lastName
+        - salary
+
+        methods 
+            - getFullName() returns firstName + " " + lastName
+            - display() to print all values
+
+
+    class Employee
+    {
+        constructor(id, fname, lname, salary)
+        {
+            this.employeeId = id;
+            this.firstName= fname;
+            this.lastName = lname;
+            this.salary = salary;
+        }
+
+        get fullName()
+        {
+            return `${this.firstName} ${this.lastName}`;
+        }
+
+        display()
+        {
+            console.log(`Employee ID : ${this.employeeId}`);
+            console.log(`Full Name   : ${this.fullName}`);
+            console.log(`Salary      : ${this.salary}`);
+        }
+    }
+
+    var e1 = new Employee(1,"Pritesh", "Patel",100.00);
+    //console.log(e1.fullName());
+    e1.display();
+*/
+
+    //Inheritance
+    class Animal 
+    {
+        constructor(legs) 
+        {
+            this.legs = legs;
+        }
+
+        walk() 
+        {
+            console.log('walking on ' + this.legs + ' legs');
+        }
+    }
+
+    class Bird extends Animal 
+    {
+        constructor(legs) 
+        {
+            super(legs);
+        }
+
+        fly() 
+        {
+            console.log('flying');
+        }
+    }
+
+
+    let bird = new Bird(2);
+
+    bird.walk();
+    bird.fly();
+
+
+/*
+    class Queue extends Array 
+    {
+        enqueue(e) 
+        {
+            super.push(e);
+        }
+
+        dequeue() 
+        {
+            return super.shift();
+        }
+
+        peek() 
+        {
+            return !this.empty() ? this[0] : undefined;
+        }
+
+        empty() 
+        {
+            return this.length === 0;
+        }
+    }
+
+    var customers = new Queue();
+    customers.enqueue('A');
+    customers.enqueue('B');
+    customers.enqueue('C');
+
+    while (!customers.empty()) 
+    {
+        console.log(customers.dequeue());
+    }
+*/
+
+let message = function()
+{
+    console.log("Hello World");
+}
+
+setTimeout(message, 3000);
+
+setTimeout(()=>{
+    console.log("Hello World again...");
+}, 3000);
+
+function checkSalary(salary, successCallback, failureCallback)
+{
+    if(salary < 100)
+    {
+        failureCallback("Your salary must not be < 100");
+    }else{
+        successCallback("Good Job!!!");
+    }
+}
+
+let display = function(msg)
+{
+    console.log(msg);
+}
+
+checkSalary(200, display, display);
+checkSalary(50, display, display);
+
+
+
+    </script>
+</body>
+</html>
