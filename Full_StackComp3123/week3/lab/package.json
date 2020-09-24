@@ -1,0 +1,21 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "Week 3 lab",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./index.js localhost 8081"
+  },
+  "keywords": [
+    "\u001b[A\u001b[B"
+  ],
+  "author": "Nick Chinsen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
