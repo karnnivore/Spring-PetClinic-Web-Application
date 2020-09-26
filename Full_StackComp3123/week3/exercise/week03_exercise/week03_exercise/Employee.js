@@ -7,4 +7,4 @@ let employees = [
     {id: 4, firstName: "Denial", lastName: "Roast", email: "denial@gmail.com", Salary:9000}
 ]
 
-module.exports = employees;
+exports.employees = employees;
