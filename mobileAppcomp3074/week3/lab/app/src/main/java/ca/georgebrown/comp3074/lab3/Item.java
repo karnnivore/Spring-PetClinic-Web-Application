@@ -2,10 +2,10 @@ package ca.georgebrown.comp3074.lab3;
 
 public class Item {
     private String largeText;
-    private String smallText;
+    private int smallText;
     private int icon;
 
-    public Item(String largeText, String smallText, int icon) {
+    public Item(String largeText, int smallText, int icon) {
         this.largeText = largeText;
         this.smallText = smallText;
         this.icon = icon;
@@ -20,11 +20,11 @@ public class Item {
     }
 
     public String getSmallText() {
-        return smallText;
+        return Integer.toString(smallText);
     }
 
-    public void setSmallText(String smallText) {
-        this.smallText = smallText;
+    public void setSmallText(int smallText) {
+        this.smallText += smallText;
     }
 
     public int getIcon() {

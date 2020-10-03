@@ -52,5 +52,6 @@ public class ItemArrayAdapter extends ArrayAdapter<Item> {
         ImageView icon = rowView.findViewById(this.iconId);
         icon.setImageResource(this.values.get(position).getIcon());
         return rowView;
+
     }
 }
