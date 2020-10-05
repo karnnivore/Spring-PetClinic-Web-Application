@@ -31,7 +31,7 @@
     <list default="true" id="4da397b2-95e7-4a2b-b421-d92625c3f81c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../assignment-jokes-chuckNorris" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../pet-clinic-wednesday/src/main/java/petclinicwednesday/demo/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/jokes-chuckNorris" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -61,6 +66,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -90,7 +96,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601920640534</updated>
-      <workItem from="1601920641947" duration="454000" />
+      <workItem from="1601920641947" duration="967000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;initial commit for assignment 1 Java Web Development&quot;&#10;&#10;This reverts commit 665f3747">
       <created>1601920935358</created>
@@ -137,6 +143,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1487" y="266" key="CommitChangelistDialog2/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1601920934875" />
+    <state x="1434" y="410" width="998" height="708" key="SettingsEditor" timestamp="1601921315290">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1434" y="410" width="998" height="708" key="SettingsEditor/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1601921315290" />
     <state x="1317" y="599" key="Vcs.Push.Dialog.v2" timestamp="1601920969909">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
