@@ -1,5 +1,3 @@
-package ca.gbc.petclinicwednesday;
-
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
