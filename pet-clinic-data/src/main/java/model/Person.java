@@ -1,4 +1,4 @@
-package ca.gbc.petclinicwednesday.model;
+package model;
 
 public class Person {
     private String first_name;
