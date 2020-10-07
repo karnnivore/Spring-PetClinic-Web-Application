@@ -34,6 +34,7 @@
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/OwnerServiceMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/IndexController/IndexController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" afterDir="false" />
@@ -107,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602072951691</updated>
       <workItem from="1602072952733" duration="576000" />
-      <workItem from="1602073543027" duration="1910000" />
+      <workItem from="1602073543027" duration="2406000" />
     </task>
     <servers />
   </component>
