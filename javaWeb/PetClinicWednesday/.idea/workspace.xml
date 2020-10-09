@@ -35,6 +35,7 @@
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/IndexController/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" afterDir="false" />
@@ -50,6 +51,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -70,6 +72,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -108,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1602072951691</updated>
       <workItem from="1602072952733" duration="576000" />
-      <workItem from="1602073543027" duration="2406000" />
+      <workItem from="1602073543027" duration="3195000" />
     </task>
     <servers />
   </component>
