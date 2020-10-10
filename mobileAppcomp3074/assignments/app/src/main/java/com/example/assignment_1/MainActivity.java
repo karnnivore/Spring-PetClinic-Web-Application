@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView displayOvertimePay;
     private TextView displayTotalPay;
     private TextView displayTax;
+    private TextView alert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,29 +29,47 @@ public class MainActivity extends AppCompatActivity {
         final EditText hoursWorked = findViewById(R.id.inputWorkedHours);
         final EditText hourlyWage = findViewById(R.id.inputHourlyRate);
 
+        /**Attach views*/
         displayPay = findViewById(R.id.lblPay);
         displayOvertimePay = findViewById(R.id.lblOvertimePay);
         displayTotalPay = findViewById(R.id.lblTotalPay);
         displayTax = findViewById(R.id.lblTax);
+        alert = findViewById(R.id.alert);
 
         Button btnCalculate = findViewById(R.id.btnCalculate);
+        Button btnReset = findViewById(R.id.btnReset);
+        /**attach onclicklistener to button and call calculate pay function**/
         btnCalculate.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
-                calculatePay(hoursWorked, hourlyWage);
+                try {
+                    calculatePay(hoursWorked, hourlyWage);
+                    alert.setText("");
+                }
+                catch (Exception e) {
+                    alert.setText("Please enter a valid number for hours worked and hourly wage");
+                }
+            }
+        });
+
+        /**Resets textviews to empty strings when user clicks reset button**/
+        btnReset.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v) {
+                hoursWorked.setText("");
+                hourlyWage.setText("");
+                displayPay.setText("0");
+                displayOvertimePay.setText("0");
+                displayTax.setText("0");
+                displayTotalPay.setText("0");
+                alert.setText("");
             }
         });
     }
 
-    /**Called when the user presses the about button**/
-    public void openAbout(){
-        //display about layout
-        Intent start = new Intent(getApplicationContext(), AboutActivity.class);
-        startActivity(start);
-    }
-
     /**Start calculating the pay values**/
     public void calculatePay(EditText hoursWorked, EditText hourlyWage){
+        /**Converts to doubel**/
         double hours = Double.parseDouble(hoursWorked.getText().toString());
         double wage = Double.parseDouble(hourlyWage.getText().toString());
         double pay, payOvertime, payTotal, payTax;
@@ -61,15 +80,13 @@ public class MainActivity extends AppCompatActivity {
             payTax = calculateTax(pay);
             payTotal = pay - payTax;
             displayPayView(pay, payOvertime, payTax, payTotal);
-        } else if(hours > 40) {
+        } else if (hours > 40) {
             pay = calculateRegularPay(40.0, wage);
             payOvertime = calculateOvertimePay(hours, wage) - pay;
             payTax = calculateTax(payOvertime + pay);
-            payTotal = (pay+payOvertime) - payTax;
+            payTotal = (pay + payOvertime) - payTax;
             displayPayView(pay, payOvertime, payTax, payTotal);
         }
-
-
     }
 
     /**Calculate regular pay**/
@@ -89,12 +106,13 @@ public class MainActivity extends AppCompatActivity {
 
     /**Update text with calculated values**/
     public void displayPayView(double pay, double payOvertime, double payTax, double payTotal) {
+        /**Converts doubles to Strings and displays it**/
         displayPay.setText(String.valueOf(pay));
         displayOvertimePay.setText(String.valueOf(payOvertime));
         displayTax.setText(String.valueOf(payTax));
         displayTotalPay.setText(String.valueOf(payTotal));
     }
-    //inflate menu to display
+    /**inflate menu to display**/
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
         MenuInflater inf = getMenuInflater();
@@ -102,14 +120,22 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    //open about activity on click
+    /**open about activity on click**/
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item){
+        //checks if item id is about
         if (item.getItemId() == R.id.menu_about) {
             openAbout();
             return true;
         } else {
             return super.onOptionsItemSelected(item);
         }
+    }
+
+    /**Called when the user presses the about button**/
+    public void openAbout(){
+        //display about layout
+        Intent start = new Intent(getApplicationContext(), AboutActivity.class);
+        startActivity(start);
     }
 }
