@@ -36,10 +36,85 @@
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/IndexController/IndexController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/VSWorkspaceState.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/slnx.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.vs/year_3/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/VetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/Assignment 1 F2020.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/androidTest/java/com/example/assignment_1/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/java/com/example/assignment_1/AboutActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/java/com/example/assignment_1/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/layout/activity_about.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/menu/main_menu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/main/res/values/styles.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/app/src/test/java/com/example/assignment_1/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/Owner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/Pet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/PetType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/model/Vet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-web/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-web/src/main/java/petclinicwednesday/PetClinicWednesdayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-web/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pet-clinic-web/src/test/java/petclinicwednesday/PetClinicWednesdayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proComp2148/nickChinsenResumeAssignment.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../proComp2148/nickChinsenResumeAssignment.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../proComp2148/~$ckChinsenResumeAssignment.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +132,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pet-clinic-wednesday" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -76,24 +152,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chuckNorrisJokes" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PetClinicWednesdayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pet-clinic-web" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="petclinicwednesday.PetClinicWednesdayApplication" />
@@ -112,6 +175,8 @@
       <updated>1602072951691</updated>
       <workItem from="1602072952733" duration="576000" />
       <workItem from="1602073543027" duration="3195000" />
+      <workItem from="1602280950149" duration="15000" />
+      <workItem from="1602633136601" duration="1587000" />
     </task>
     <servers />
   </component>
@@ -156,6 +221,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1649" y="542" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602073320502" />
+    <state x="-1180" y="624" key="FileChooserDialogImpl" timestamp="1602280963281">
+      <screen x="-1920" y="349" width="1920" height="1040" />
+    </state>
+    <state x="-1180" y="624" key="FileChooserDialogImpl/-1920.349.1920.1040/0.0.2560.1400@-1920.349.1920.1040" timestamp="1602280963281" />
     <state width="1234" height="398" key="GridCell.Tab.0.bottom" timestamp="1602073533873">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
