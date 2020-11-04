@@ -29,17 +29,179 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ddb1889d-1768-4a85-a22c-aa7b71b21d87" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/CrudService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/AbstractMapService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/OwnerServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/PetServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/map/VetServiceMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/controller/OwnerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/controller/VetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/CrudService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/OwnerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/PetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/VetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/map/AbstractMapService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/map/OwnerServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/map/PetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/services/map/VetServiceMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/bootstrap/DataLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/ca/gbc/controller/IndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/ca/gbc/controller/OwnerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/ca/gbc/controller/VetController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/templates/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/templates/owners/index.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/templates/vets/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chuckNorrisJokes/.idea/chuckNorrisJokes.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/101075596_Assignment01_Mobile/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/101075596_Assignment01_Mobile/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/androidTest/java/com/lab6/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/java/com/lab6/CompasActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/java/com/lab6/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/java/com/lab6/MyCompassView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/Lab6/app/src/test/java/com/lab6/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/androidTest/java/com/lab7thursday/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/java/com/lab7thursday/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/java/com/lab7thursday/StudentProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/app/src/test/java/com/lab7thursday/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/lab7Thursday/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/androidTest/java/com/labex5/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/java/com/labex5/Accelerometer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/java/com/labex5/Gyroscope.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/java/com/labex5/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/app/src/test/java/com/labex5/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labEx5/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/androidTest/java/com/labtest1/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/java/com/labtest1/Illuminance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/java/com/labtest1/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/java/com/labtest1/SensorActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/java/com/labtest1/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/layout/activity_sensor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/menu/main_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/labTest1/app/src/test/java/com/labtest1/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../mobileAppcomp3074/week7/lab72/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitattributes" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
@@ -48,12 +210,23 @@
       <change beforePath="$PROJECT_DIR$/../../.vs/VSWorkspaceState.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.vs/slnx.sqlite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.vs/year_3/v16/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Full_StackComp3123/101075596_comp3123_assig1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Full_StackComp3123/101075596_comp3123_assig1/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/VetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/Owner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/PetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/PetType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/model/Vet.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/ca/gbc/model/Vet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/OwnerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/PetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-data/src/main/java/services/VetService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/PetClinicWednesdayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/java/petclinicwednesday/ca/gbc/controller/PetClinicWednesdayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/test/java/petclinicwednesday/PetClinicWednesdayApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/pet-clinic-wednesday/pet-clinic-web/src/test/java/petclinicwednesday/PetClinicWednesdayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../mobileAppcomp3074/assignments/.idea/codeStyles/Project.xml" beforeDir="false" />
@@ -133,6 +306,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/pet-clinic-wednesday" value="lab5" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pet-clinic-wednesday" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
@@ -156,6 +334,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../chuckNorrisJokes" />
@@ -176,7 +355,7 @@
     </configuration>
     <configuration name="PetClinicWednesdayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="pet-clinic-web" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="petclinicwednesday.PetClinicWednesdayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="petclinicwednesday.ca.gbc.controller.PetClinicWednesdayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -193,7 +372,10 @@
       <workItem from="1602072952733" duration="576000" />
       <workItem from="1602073543027" duration="3195000" />
       <workItem from="1602280950149" duration="15000" />
-      <workItem from="1602633136601" duration="5059000" />
+      <workItem from="1602633136601" duration="5185000" />
+      <workItem from="1602641450479" duration="14000" />
+      <workItem from="1602677110697" duration="1877000" />
+      <workItem from="1604512660938" duration="4175000" />
     </task>
     <servers />
   </component>
@@ -230,50 +412,64 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="1725" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1602075108050">
+    <state x="1725" y="406" key="#com.intellij.ide.util.MemberChooser" timestamp="1604516003407">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1725" y="406" key="#com.intellij.ide.util.MemberChooser/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602075108050" />
+    <state x="1725" y="406" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516003407" />
+    <state x="1452" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604515690091">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1452" y="636" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604515690091" />
     <state x="1649" y="542" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1602073320502">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1649" y="542" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602073320502" />
-    <state x="-1180" y="624" key="FileChooserDialogImpl" timestamp="1602280963281">
-      <screen x="-1920" y="349" width="1920" height="1040" />
+    <state x="987" y="370" key="FileChooserDialogImpl" timestamp="1602678824112">
+      <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="-1180" y="624" key="FileChooserDialogImpl/-1920.349.1920.1040/0.0.2560.1400@-1920.349.1920.1040" timestamp="1602280963281" />
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom" timestamp="1602638268281">
+    <state x="987" y="370" key="FileChooserDialogImpl/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602678824112" />
+    <state width="1232" height="393" key="GridCell.Tab.0.bottom" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.bottom/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.0.center" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.0.bottom/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662893" />
+    <state width="1232" height="393" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.0.center" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.center/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.0.left" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.0.center/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662893" />
+    <state width="1232" height="393" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.0.left" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.left/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.0.right" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.0.left/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662892" />
+    <state width="1232" height="393" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.0.right" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.0.right/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.1.bottom" timestamp="1602638268282">
+    <state width="2517" height="399" key="GridCell.Tab.0.right/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662893" />
+    <state width="1232" height="393" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.1.bottom" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.1.bottom/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268282" />
-    <state width="2517" height="399" key="GridCell.Tab.1.center" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.1.bottom/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662890" />
+    <state width="1232" height="393" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.1.center" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.1.center/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.1.left" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.1.center/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662890" />
+    <state width="1232" height="393" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.1.left" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.1.left/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
-    <state width="2517" height="399" key="GridCell.Tab.1.right" timestamp="1602638268281">
+    <state width="2517" height="399" key="GridCell.Tab.1.left/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662890" />
+    <state width="1232" height="393" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
+    <state width="1232" height="393" key="GridCell.Tab.1.right" timestamp="1604516057594">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="399" key="GridCell.Tab.1.right/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638268281" />
+    <state width="2517" height="399" key="GridCell.Tab.1.right/-1920.349.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1602638662890" />
+    <state width="1232" height="393" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.349.1920.1040@0.0.2560.1400" timestamp="1604516057594" />
     <state x="1441" y="391" key="Maven.ArtifactSearchDialog" timestamp="1602073439532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
