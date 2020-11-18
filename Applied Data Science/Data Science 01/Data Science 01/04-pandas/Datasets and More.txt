@@ -1,6 +1,0 @@
-Videos
-https://www.youtube.com/watch?v=BOhgGA7Eu5E
-
-Datasets
-https://archive.ics.uci.edu/ml/datasets
-https://www.kaggle.com/datasets

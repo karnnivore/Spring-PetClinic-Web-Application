@@ -1,5 +1,0 @@
-f = open("demofile.txt", "r")
-print(f.read())
-print("****************************")
-f = open("demofile.txt", "r")
-print(f.read(5))

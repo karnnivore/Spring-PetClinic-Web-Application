@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-javaWeb/
-node_modules/
-devOpsComp3104/
-javaComp3095/gbc-comp3095-pet/
-=======
 HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
@@ -37,4 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
->>>>>>> 36200fd4b7b11c5299b53cb14cf61de880480dad

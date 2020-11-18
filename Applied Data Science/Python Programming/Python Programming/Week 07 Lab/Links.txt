@@ -1,8 +1,0 @@
-Setter Getter
-https://www.youtube.com/watch?v=d_-e6-ELeSY
-
-Data hiding
-https://www.youtube.com/watch?v=Kj-oK05kZew
-
-Pythons Data Hiding Convention
-https://www.youtube.com/watch?v=ZV4CyzvJv50
