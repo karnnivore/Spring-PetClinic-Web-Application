@@ -11,4 +11,6 @@ public class IndexController {
         return "index";
     }
 
+    @RequestMapping("/oups")
+    public String error() { return "fragments/notimplemented"; }
 }

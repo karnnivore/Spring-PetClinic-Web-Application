@@ -22,4 +22,9 @@ public class OwnerController {
         System.out.println(model);
         return "owners/index";
     }
+
+    @RequestMapping("/find")
+    private String findOwners() {
+        return "owners/index";
+    }
 }
