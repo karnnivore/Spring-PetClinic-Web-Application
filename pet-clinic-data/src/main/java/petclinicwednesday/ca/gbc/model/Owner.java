@@ -1,7 +1,9 @@
 package petclinicwednesday.ca.gbc.model;
 
+import java.util.Set;
+
 public class Owner  extends Person {
-    private Pet pet;
+    private Set<Pet> pet;
     private String address;
     private String city;
     private String telephone;
