@@ -1,13 +1,11 @@
 package petclinicwednesday.ca.gbc.bootstrap;
 
-import petclinicwednesday.ca.gbc.model.Owner;
-import petclinicwednesday.ca.gbc.model.Pet;
-import petclinicwednesday.ca.gbc.model.PetType;
-import petclinicwednesday.ca.gbc.model.Vet;
+import petclinicwednesday.ca.gbc.model.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import petclinicwednesday.ca.gbc.services.OwnerService;
 import petclinicwednesday.ca.gbc.services.PetTypeService;
+import petclinicwednesday.ca.gbc.services.SpecialtiesService;
 import petclinicwednesday.ca.gbc.services.VetService;
 
 import java.time.LocalDate;
@@ -18,14 +16,22 @@ public class DataLoader implements CommandLineRunner {
     private final OwnerService ownerService;
     private final VetService vetService;
     private final PetTypeService petTypeService;
+    private final SpecialtiesService specialtiesService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtiesService specialtiesService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
+        this.specialtiesService = specialtiesService;
     }
+
     @Override
     public void run(String... args) throws Exception {
+        int count = petTypeService.findAll().size();
+        if (count == 0) loadData();
+    }
+
+    private void loadData() {
         //load pettypes
         PetType dog = new PetType();
         dog.setName("Dog");
@@ -75,21 +81,37 @@ public class DataLoader implements CommandLineRunner {
         samsPet.setOwner(owner2);
         owner2.getPets().add(frodosPet);
 
+        //Load Specialities
+        Specialty radiology = new Specialty();
+        radiology.setDescription("Radiology");
+
+        Specialty dentistry = new Specialty();
+        radiology.setDescription("Dentistry");
+
+        Specialty surgery = new Specialty();
+        radiology.setDescription("Surgery");
+
+        Specialty savedRadiology = specialtiesService.save(radiology);
+        Specialty savedDentistry = specialtiesService.save(dentistry);
+        Specialty savedSurgery = specialtiesService.save(surgery);
+
+        //Load Vets
         Vet vet1 = new Vet();
         vet1.setFirst_name("Bilbo");
         vet1.setLast_name("Baggins");
+        vet1.getSpecialties().add(radiology);
+        vet1.getSpecialties().add(dentistry);
 
         vetService.save(vet1);
 
         Vet vet2 = new Vet();
         vet2.setFirst_name("Pippin");
         vet2.setLast_name("Took");
+        vet2.getSpecialties().add(surgery);
 
         vetService.save(vet2);
 
         System.out.println(vetService.findAll());
         System.out.println("Loaded Vets....");
-
-
     }
 }
