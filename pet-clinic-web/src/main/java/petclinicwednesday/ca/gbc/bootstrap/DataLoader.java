@@ -1,10 +1,12 @@
 package petclinicwednesday.ca.gbc.bootstrap;
 
 import petclinicwednesday.ca.gbc.model.Owner;
+import petclinicwednesday.ca.gbc.model.PetType;
 import petclinicwednesday.ca.gbc.model.Vet;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 import petclinicwednesday.ca.gbc.services.OwnerService;
+import petclinicwednesday.ca.gbc.services.PetTypeService;
 import petclinicwednesday.ca.gbc.services.VetService;
 
 @Component
@@ -12,10 +14,12 @@ public class DataLoader implements CommandLineRunner {
 
     private final OwnerService ownerService;
     private final VetService vetService;
+    private final PetTypeService petTypeService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
+        this.petTypeService = petTypeService;
     }
     @Override
     public void run(String... args) throws Exception {
@@ -31,6 +35,7 @@ public class DataLoader implements CommandLineRunner {
 
         ownerService.save(owner2);
 
+        System.out.println(ownerService.findAll());
         System.out.println("Loaded Owners");
 
         Vet vet1 = new Vet();
@@ -47,5 +52,16 @@ public class DataLoader implements CommandLineRunner {
 
         System.out.println(vetService.findAll());
         System.out.println("Loaded Vets....");
+
+        PetType dog = new PetType();
+        dog.setName("Dog");
+        PetType saveDogPetType = petTypeService.save(dog);
+
+        PetType cat = new PetType();
+        cat.setName("Cat");
+        PetType saveCatPetType = petTypeService.save(cat);
+
+        System.out.println(petTypeService.findAll());
+        System.out.println("Loaded PetTypes....");
     }
 }
