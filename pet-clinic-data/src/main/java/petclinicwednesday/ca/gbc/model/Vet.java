@@ -1,5 +1,8 @@
 package petclinicwednesday.ca.gbc.model;
 
-public class Vet  extends Person {
+import java.util.HashSet;
+import java.util.Set;
 
+public class Vet  extends Person {
+    private Set<Specialty> specialty = new HashSet<>();
 }
