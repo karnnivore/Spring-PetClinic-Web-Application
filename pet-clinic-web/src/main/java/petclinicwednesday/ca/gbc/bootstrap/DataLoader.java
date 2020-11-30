@@ -3,10 +3,7 @@ package petclinicwednesday.ca.gbc.bootstrap;
 import petclinicwednesday.ca.gbc.model.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import petclinicwednesday.ca.gbc.services.OwnerService;
-import petclinicwednesday.ca.gbc.services.PetTypeService;
-import petclinicwednesday.ca.gbc.services.SpecialtiesService;
-import petclinicwednesday.ca.gbc.services.VetService;
+import petclinicwednesday.ca.gbc.services.*;
 
 import java.time.LocalDate;
 
@@ -17,12 +14,14 @@ public class DataLoader implements CommandLineRunner {
     private final VetService vetService;
     private final PetTypeService petTypeService;
     private final SpecialtiesService specialtiesService;
+    private final VisitService visitService;
 
-    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtiesService specialtiesService) {
+    public DataLoader(OwnerService ownerService, VetService vetService, PetTypeService petTypeService, SpecialtiesService specialtiesService, VisitService visitService) {
         this.ownerService = ownerService;
         this.vetService = vetService;
         this.petTypeService = petTypeService;
         this.specialtiesService = specialtiesService;
+        this.visitService = visitService;
     }
 
     @Override
@@ -113,5 +112,14 @@ public class DataLoader implements CommandLineRunner {
 
         System.out.println(vetService.findAll());
         System.out.println("Loaded Vets....");
+
+        //inject visits
+        Visit catVisit = new Visit();
+        catVisit.setPet(samsPet);
+        catVisit.setDate(LocalDate.now());
+        catVisit.setDescription("Sick Cat");
+
+        visitService.save(catVisit);
+        System.out.println("Loaded Visits...");
     }
 }
