@@ -1,5 +1,6 @@
 package petclinicwednesday.ca.gbc.services.map;
 
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 import petclinicwednesday.ca.gbc.model.Specialty;
 import petclinicwednesday.ca.gbc.services.SpecialtiesService;
@@ -7,6 +8,7 @@ import petclinicwednesday.ca.gbc.services.SpecialtiesService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class SpecialitiesServiceMap extends AbstractMapService<Specialty, Long> implements SpecialtiesService {
     @Override
     public Set<Specialty> findAll() {

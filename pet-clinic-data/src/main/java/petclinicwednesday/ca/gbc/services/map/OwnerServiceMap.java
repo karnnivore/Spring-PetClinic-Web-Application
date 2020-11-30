@@ -1,5 +1,6 @@
 package petclinicwednesday.ca.gbc.services.map;
 
+import org.springframework.context.annotation.Profile;
 import petclinicwednesday.ca.gbc.model.Pet;
 import petclinicwednesday.ca.gbc.services.OwnerService;
 import petclinicwednesday.ca.gbc.model.Owner;
@@ -10,6 +11,7 @@ import petclinicwednesday.ca.gbc.services.PetTypeService;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
 
     private final PetTypeService petTypeService;

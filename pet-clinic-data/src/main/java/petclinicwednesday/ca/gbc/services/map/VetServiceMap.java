@@ -1,4 +1,5 @@
 package petclinicwednesday.ca.gbc.services.map;
+import org.springframework.context.annotation.Profile;
 import petclinicwednesday.ca.gbc.model.Specialty;
 import petclinicwednesday.ca.gbc.model.Vet;
 import petclinicwednesday.ca.gbc.services.SpecialtiesService;
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.Set;
 
 @Service
+@Profile({"default", "map"})
 public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     private final SpecialtiesService specialtiesService;
 
@@ -46,10 +48,5 @@ public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetS
     @Override
     public Vet findById(Long id) {
         return super.findById(id);
-    }
-
-    @Override
-    public Vet findByLastName(String lastName) {
-        return null;
     }
 }
